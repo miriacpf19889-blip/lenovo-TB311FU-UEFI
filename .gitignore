@@ -1,0 +1,5 @@
+/Build/
+/Conf/
+*.pyc
+__pycache__/
+*.log
