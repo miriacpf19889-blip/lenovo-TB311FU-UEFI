@@ -57,6 +57,10 @@ INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
 INF MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
 INF Platform/Lenovo/TB311FUPkg/Drivers/LkGopDxe/LkGopDxe.inf
 INF Platform/Lenovo/TB311FUPkg/Drivers/UsbConsoleDxe/UsbConsoleDxe.inf
+INF Platform/Lenovo/TB311FUPkg/Drivers/MsdcDxe/MsdcDxe.inf
+INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
+INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
+INF FatPkg/EnhancedFatDxe/Fat.inf
 INF Platform/Lenovo/TB311FUPkg/Drivers/BootDxe/BootDxe.inf
 INF ShellPkg/Application/Shell/Shell.inf
 [FV.FVCOMPACT]

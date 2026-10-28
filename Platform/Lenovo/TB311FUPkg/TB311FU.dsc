@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
-# Experimental LK-loaded TB311FU firmware; no block devices or persistent variables.
+# LK-loaded TB311FU firmware.
 [Defines]
   PLATFORM_NAME = TB311FU
   PLATFORM_GUID = 1339996b-8590-469c-86bd-225fb1f45819
@@ -106,6 +106,10 @@
   MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
   Platform/Lenovo/TB311FUPkg/Drivers/LkGopDxe/LkGopDxe.inf
   Platform/Lenovo/TB311FUPkg/Drivers/UsbConsoleDxe/UsbConsoleDxe.inf
+  Platform/Lenovo/TB311FUPkg/Drivers/MsdcDxe/MsdcDxe.inf
+  MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
+  MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
+  FatPkg/EnhancedFatDxe/Fat.inf
   Platform/Lenovo/TB311FUPkg/Drivers/BootDxe/BootDxe.inf
   ShellPkg/Application/Shell/Shell.inf {
     <LibraryClasses>
